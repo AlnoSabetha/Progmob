@@ -4,23 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SampleListActivity">
+    tools:context=".ServiceActivity">
 
     <Button
-        android:id="@+id/btn_list"
+        android:id="@+id/btnGETAPI"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="161dp"
-        android:layout_marginBottom="344dp"
-        android:text="ListView"
+        android:layout_marginStart="158dp"
+        android:layout_marginBottom="359dp"
+        android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btnSampleRV"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="RecyclerView"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="422dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

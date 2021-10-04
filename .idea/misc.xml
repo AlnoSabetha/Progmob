@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/chame/AndroidStudioProjects/Progmob/app/src/main/res/layout/activity_main.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/chame/AndroidStudioProjects/Progmob/app/src/main/res/layout/activity_recycler.xml" value="0.16259057971014493" />
         <entry key="..\:/Users/chame/AndroidStudioProjects/Progmob/app/src/main/res/layout/activity_sample_list.xml" value="0.16893115942028986" />
         <entry key="..\:/Users/chame/AndroidStudioProjects/Progmob/app/src/main/res/layout/activity_sample_list_view.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/chame/AndroidStudioProjects/Progmob/app/src/main/res/layout/activity_service.xml" value="0.152" />
+        <entry key="..\:/Users/chame/AndroidStudioProjects/Progmob/app/src/main/res/layout/rv_tem_dutatani.xml" value="0.16259057971014493" />
       </map>
     </option>
   </component>

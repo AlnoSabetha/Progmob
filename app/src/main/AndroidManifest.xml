@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.progmob">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,10 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Progmob">
         <activity
-            android:name=".SampleListView"
+            android:name=".GETAPIactivity"
             android:exported="true" />
         <activity
-            android:name=".SampleListActivity"
+            android:name=".ServiceActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,9 +24,17 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".RecyclerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SampleListView"
+            android:exported="true" />
+        <activity
+            android:name=".SampleListActivity"
+            android:exported="true"></activity>
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
